@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 1024px) {
+    
+    body{
+        background-image: linear-gradient( to top, #e8321abd,#bc611c, #f8b10acd);
+    }
+    section{
+        width: 1000px;
+        height:370px ;
+    }
+    #foto{
+        background-position: center right;
+        background-size: 850px;
+        width: 440px;
+        height:375px;
+        top: 50%;
+        left: 50% ;
+        transform: translate(130%, -1%);
+    }
+    #formulario{
+        width: 574px;
+        height: 378px;
+        position: relative;
+        top: -50%;
+        left: 70% ;
+        transform: translate(-122%, -51%);
+    }
+    #formulario h1{
+        padding: 30px 0px 20px 0px;
+        font-size: 30px;
+    }
+    #formulario .frase{
+        width: 500px;
+        padding-bottom: 20px;
+        margin: auto;
+        font-size: 18px;
+    }
+    #formulario form .div-comuns{
+        margin-bottom: 15px;
+        width: 450px;
+    }
+    #formulario form .botoes-comuns{
+        margin-bottom: 15px;
+    }
+    #formulario form .div-comuns > input{
+        width: 407px;
+    
+    }
+    
+    #formulario form .botoes-comuns > input{
+        width: 450px; 
+        margin-left: -120px;
+    }
+}

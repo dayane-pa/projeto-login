@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #F8B20A;
+    --cor2: #F2941B;
+    --cor3: #DB7223;
+    --cor4: #F2551B;
+    --cor5: #E8331A;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+background-color: #bc611c;
+}
+main{
+   
+    height: 100vh;
+}
+
+
+section{
+    position: absolute;
+    background-color: #ffffff;
+    margin: auto;
+    width: 250px;
+    height:500px ;
+    top: 50%;
+    left: 50% ;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    transition-timing-function: ease;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.467);
+}
+#foto{
+    background-image: url(../imagens/predio.jpg);
+    height:220px;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#formulario h1{
+    text-align: center;
+    padding: 8px;
+    text-transform: uppercase;  
+}
+#formulario .frase{
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    font-size: 15px;
+}
+#formulario form{
+    height: 210px;
+    padding-top: 7px;
+}
+
+#formulario form .email,.senha,.entrar,.esqueci{
+    height: 38px;
+    padding-left: 3px;
+    margin: auto;
+    margin-top: 7px;
+    border-radius: 6px; 
+}
+
+#formulario form .email,.senha{
+    background-color: #E8331A;
+    width: 220px;
+}
+
+
+.div-comuns span{
+    padding-top: 5px;
+    font-size: 1.5em;
+    color: white; 
+    padding-right: 3px;
+}
+
+.div-comuns input{
+    position: absolute;
+    width: 179px;
+    height: 23px;
+    padding: 6px;
+    margin-top: 3px;
+    border-radius: 6px;
+    border: none;
+    background-color: #F2941B; 
+}
+
+ .botoes-comuns{
+    width: 210px;
+    padding: 0px;
+
+}
+.botoes-comuns >input{
+    width: 222px;
+    height: 38px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 6px;
+    margin-left: -6px;
+    border-radius: 6px;
+    border: none; 
+}
+
+form .entrar > input{
+    color: white;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.312);
+    background-color:#d48217;
+}
+form .esqueci > input{
+    color: #F2551B;
+    background-color:transparent;
+    position: absolute;
+    border: 1px solid #e8321ad0;
+}
+form .entrar > input:hover{
+    background-color: #E8331A;
+}
+form .esqueci > input:hover{
+    background-color: #db7323;
+    color: white; 
+}
+
+
+
+
+

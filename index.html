@@ -23,16 +23,22 @@
                 <form action="login.php" method="post" autocomplete="on" >
 
                     <div  class="email div-comuns "  ><span class="material-icons">
-                        person
-                        </span><input type="email" name="email" id="iemail" autocomplete="email" placeholder="Seu e-mail"></div>
+                        person</span>
+                        <input type="email" name="email" id="iemail" autocomplete="email" placeholder="Seu e-mail">
+                        <label for="iemail">Email</label>
+                    </div>
 
                     <div  class="senha div-comuns "><span class="material-icons">
                         vpn_key
-                        </span><input type="password" name="password" id="ipassword" placeholder="Sua senha" ></div>
+                        </span><input type="password" name="password" id="ipassword" placeholder="Sua senha" >
+                        <label for="ipassword">Senha</label>
+                    </div>
 
-                    <p class="entrar botoes-comuns"><input type="submit" value="Entrar"></p>
-                    <p class="esqueci botoes-comuns"><input  type="button" value="Esqueci a senha" >
-                    </p>
+                    <input class="entrar botoes-comuns" type="submit" value="Entrar"> <br>
+
+                    <a class="esqueci botoes-comuns" href="esqueci.html">Esqueci a senha <i class= "material-icons"> mail</i></a>
+                   
+                
                 </form>
             </div>
         </section>

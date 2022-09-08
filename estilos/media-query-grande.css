@@ -13,44 +13,44 @@
     #foto{
         background-position: center right;
         background-size: 850px;
-        width: 440px;
-        height:375px;
-        top: 50%;
-        left: 50% ;
-        transform: translate(130%, -1%);
+        float: right;
+        width:43% ;
+        height: 100%;
     }
+
     #formulario{
-        width: 574px;
-        height: 378px;
-        position: relative;
-        top: -50%;
-        left: 70% ;
-        transform: translate(-122%, -51%);
+        float: left;
+        width: 57%;
     }
+
     #formulario h1{
         padding: 30px 0px 20px 0px;
         font-size: 30px;
     }
+
     #formulario .frase{
         width: 500px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
         margin: auto;
         font-size: 18px;
     }
+
     #formulario form .div-comuns{
         margin-bottom: 15px;
         width: 450px;
     }
-    #formulario form .botoes-comuns{
-        margin-bottom: 15px;
-    }
+
     #formulario form .div-comuns > input{
-        width: 407px;
-    
+        width: 414px;
+    }
+
+    #formulario form .botoes-comuns{
+        margin-bottom: 10px;
+        width: 450px; 
+        margin-left: 60px;
     }
     
-    #formulario form .botoes-comuns > input{
-        width: 450px; 
-        margin-left: -120px;
+    #formulario form .entrar{
+        margin-top: 2px;
     }
 }

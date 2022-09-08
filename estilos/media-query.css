@@ -5,45 +5,51 @@
 body{
     background-image: linear-gradient( to top, #e8321abd,#bc611c, #f8b10acd);
 }
-section{
-    width: 600px;
+section#login{
+    width: 80vw;
     height:300px ;
-    transition-timing-function: ease;
+    transition-timing-function: ease; 
 }
 
 #foto{
-    height:300px;
-    width: 240px;
+    height: 100%;
+    width: 40%;
+    float: left;
+    background-size: cover ;
 }
 #formulario h1{
     font-size: 27px;
 
 }
 #formulario{
-    width: 360px;
-    height: 300px;
-    position: relative;
-    top: -50%;
-    left: 70% ;
-    transform: translate(-50%, -50%);
+    float: right;
+    width: 60%;
+   
 }
 #formulario .frase{
-    width: 340px;
     margin-bottom: 10px;
     font-size: 17px;
 }
 #formulario form .div-comuns{
     margin: auto;
     margin-bottom: 9px;
-    width: 340px;
+    width: 95%;
+    display: block;
 }
 #formulario form .div-comuns > input{
-    width: 297px;
+    width: calc(55% - 25px);
+
 }
 
-#formulario form .botoes-comuns > input{
-    width: 343px; 
-    margin-left: -67px;
+#formulario form .entrar{
+    width: calc(100% - 19px);
+    margin-left: 8px;
+    margin-top: 1px;
+}
+#formulario form .esqueci{
+    width: calc(60% - 20px);
+    margin-top: 10px;
+    margin-left: 8px;
 }
 
 }
